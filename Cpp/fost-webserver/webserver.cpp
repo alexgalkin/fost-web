@@ -44,7 +44,7 @@ namespace {
 
 FSL_MAIN(
         L"webserver",
-        L"Threaded HTTP server\nCopyright (C) 2002-2016, Felspar Co. Ltd.")
+        L"Threaded Debug2020 HTTP server\nCopyright (C) 2002-2016, Felspar Co. Ltd.")
 (fostlib::ostream &o, fostlib::arguments &args) {
     args.commandSwitch("C", c_cwd.section(), c_cwd.name());
     if (not c_cwd.value().empty()) {
